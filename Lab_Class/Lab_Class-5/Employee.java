@@ -14,7 +14,7 @@ public class Employee {
     }
   //Main method.
     public static void main(String[] args){
-      //Create an object of class Main (This will call the constructor) 
+      //Create an object of class Employee Which will call the constructor. 
       Employee emp = new Employee(5656,"Bappy");
         emp.info();
     }
