@@ -7,7 +7,7 @@ public class Administrator extends Employee {
     }
 
     public String getDepartment() {
-        return Department="Computer Science and Engineering";
+        return Department = "Computer Science and Engineering";
     }
 
     public String toString() {
