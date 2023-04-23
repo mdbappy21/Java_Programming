@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Employee implements Employees {
 
@@ -27,12 +28,12 @@ public class Employee implements Employees {
     }
 
     public String toString() {
-        return "Employee ID : " + EmployeeId + "\nEmployee Name : " + Name + "\nSalary : " + Salary;
+        return "Employee ID : " + EmployeeId + "\nEmployee Name : " + Name + "\nSalary : " + Salary+" BDT";
     }
 
-    public static double totalSalary(Employee[] employees) {
+    public static double totalSalary(ArrayList<Employee> Employees) {
         double totalSalary = 0;
-        for (Employee employee : employees) {
+        for (Employee employee : Employees) {
             totalSalary += employee.Salary;
         }
         return totalSalary;
