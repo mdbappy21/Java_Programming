@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-
 public class Employee implements Employees {
 
     private int EmployeeId;
@@ -37,10 +36,5 @@ public class Employee implements Employees {
             totalSalary += employee.Salary;
         }
         return totalSalary;
-    }
-
-    @Override
-    public double totalSalary() {
-        return 0;
     }
 }
