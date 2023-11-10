@@ -6,7 +6,7 @@ typedef struct node{
     struct node *next;
 }node;
 
-node *top=0,*temp,*newNode;;
+node *top=NULL,*temp,*newNode;;
 
 void push(int value){
     newNode=(node*)malloc(sizeof (node));
