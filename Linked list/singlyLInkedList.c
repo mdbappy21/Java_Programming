@@ -123,6 +123,7 @@ void inseartAtPosition() {
             scanf("%d", &temp->id);
             temp->next = current->next;
             current->next = temp;
+            break;
         }
         current = current->next;
     }
